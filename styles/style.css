@@ -1,0 +1,83 @@
+body{
+    margin-top: 90px;
+}
+html {
+    scroll-behavior: smooth;
+    }
+.shadow {
+        box-shadow: 0 .1rem .2rem rgba(50,146,166.15)!important;
+}
+/* navbar */
+a.nav-link{
+    font-size: 1.4rem;
+    margin-right:20px ;
+}
+.nav-link:focus{
+    color: rgba(0, 0, 0, .9) !important;
+}
+/* home */
+#home{
+    background: url(../img/mountains.jpg);
+    position: relative;
+    min-height: 600px;
+}
+h1.display-1 {
+    margin-top: 130px;
+}
+.overlay{
+    background: rgba(50, 146, 156, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/* book */
+.book{
+    background: #F8F9FA;
+}
+/* autohr */
+.card{
+    transition: .5s;
+}
+.card-body img{
+    margin-top: -60px;
+}
+.icon{
+    display: inline-block;
+}
+.icon ul li{
+    list-style: none;
+    color: #3292A6;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon ul li i{
+    padding-right: 30px;
+}
+.card .itss{
+    margin-left: -23px;
+}
+.card-1:hover{
+    background: #3292a6;
+    color: #fff;
+}
+.card-1:hover .icon ul li{
+    color: #fff;
+}
+/* contact */
+.contact{
+    background: #F8F9FA;
+}
+.contact img{
+    margin-top: 100px;
+}
+.bgc{
+    background: #3292A6;
+}
+.btn-primary{
+    background: rgb(50, 146, 166) !important;
+}
+.text-primary{
+    color: #3292A6 !important;
+}
